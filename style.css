@@ -6,11 +6,12 @@
 
 .navber div{
     width: 50%;
-    height: 80px;
+    
 }
 
 nav{
     background-color: rgb(27, 30, 34);
+    height: 80px;
 }
 
 
