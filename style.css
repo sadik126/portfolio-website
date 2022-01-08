@@ -27,7 +27,7 @@ nav{
 #list li a {
     color: cornsilk;
     font-size: 20px;
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -63,6 +63,15 @@ nav{
 .home span{
    color: #40d9d9;
 }
+ .home a{
+     background-image: linear-gradient(rgb(184, 114, 35),#e7dc49);
+     color: rgb(7, 7, 7);
+     padding: 3px 20px;
+     border-radius: 5px;
+     font-size: 25px;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 400;
+ }
 
 .home img{
     margin-top: 60px;
