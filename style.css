@@ -3,3 +3,18 @@
   padding: 0;
   text-decoration: none;
 }
+
+.navber div{
+    width: 50%;
+    height: 80px;
+}
+
+nav{
+    background-color: rgb(27, 30, 34);
+}
+
+
+.navber img{
+   margin-top: -10%;
+   width: 40%;
+}
