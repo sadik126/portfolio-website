@@ -41,6 +41,16 @@ nav{
     font-family: 'Ubuntu', sans-serif;
 }
 
+@keyframes logo {
+    from{
+      transform: scale(0.75);
+    }
+
+    to{
+      transform: scale(1);
+    }
+}
+
 
 
 .navber img{
@@ -48,6 +58,8 @@ nav{
    width: 40%;
    position: relative;
    top: 0;
+   animation: logo 2s ease-in 1s infinite alternate ;
+   animation-play-state: running;
 }
 
 /* navber ends */
