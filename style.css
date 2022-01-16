@@ -257,3 +257,67 @@ nav {
   #text1 h1,h3,h5{
       font-weight: 700;
   }
+
+
+  @media only screen and (max-width : 688px){
+
+    .navber{
+        flex-direction: column;
+        align-items: center;
+        position: static;
+        width: 105%;
+
+    }
+
+    
+
+ .navber img {
+   width: 100%;
+   margin-left: 9px;
+}
+
+
+    #list{
+        padding-left: 60px;
+    }
+       
+
+   
+
+    #list li{
+        float: none;
+        height: 50px;
+    }
+
+    .navber{
+        
+        height: 80%;
+    }
+
+    /* navber ends */
+
+
+    .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .home div{
+        width: 100%;
+        
+
+    }
+    #text1{
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    #sadik img{
+        width: 100%;
+        margin-top: 5px;
+        
+        
+    }
+  }
