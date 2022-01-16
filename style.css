@@ -95,6 +95,10 @@ nav{
     50%{
         color: rgb(250, 8, 56);
     }
+
+    75%{
+        color: chocolate;
+    }
     100%{
         color: cyan;
     }
@@ -103,7 +107,7 @@ nav{
 }
 
 #sadik{
-   animation: name 1s ease-in 0.5s infinite alternate ;
+   animation: name 2s ease-in 0.5s infinite alternate ;
    animation-play-state: running;
 }
 
