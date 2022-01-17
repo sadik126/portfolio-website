@@ -91,6 +91,12 @@ nav{
     display: flex;
    
     height: 76vh;
+
+   
+
+   
+
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 92% 100%, 10% 100%, 0% 80%, 0% 20%);
     
     
 }
@@ -191,6 +197,8 @@ nav {
     position: relative;
     z-index: 0;
     border-radius: 10px;
+
+   
   }
   
   .btn::before {
@@ -278,7 +286,7 @@ nav {
 
 
     #list{
-        padding-left: 60px;
+        padding-left: 40px;
     }
        
 
@@ -301,7 +309,15 @@ nav {
         width: 100%;
         display: flex;
         flex-direction: column;
+        align-items: center;
         
+        /* overflow-x: hidden; */
+        position: relative;
+
+        
+    }
+
+    #sadik{
     }
 
     .home div{
@@ -311,12 +327,16 @@ nav {
     }
     #text1{
         width: 100%;
-        margin-left: 5px;
+        margin-left: -33px;
+        margin-top: 60px;
+        position: absolute;
+        top: 360px;
     }
 
     #sadik img{
         width: 100%;
         margin-top:  5px;
+        margin-left: 25px;
         
         
     }
