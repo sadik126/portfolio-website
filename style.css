@@ -94,6 +94,8 @@ nav{
 
    position: static;
 
+   margin-bottom: 200px;
+
    
 
     
@@ -280,6 +282,7 @@ nav {
         margin-top: 60px;
         position: absolute;
         top: 360px;
+        flex: 100%;
     }
 
     #sadik img{
