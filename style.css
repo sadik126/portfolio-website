@@ -113,15 +113,29 @@ nav{
         color: rgb(0, 255, 76);
     }
 
-    50%{
+    15%{
+        color: rgb(36, 36, 240);
+    }
+    30%{
+        color: yellow;
+    }
+
+    45%{
         color: rgb(250, 8, 56);
+    }
+
+    60%{
+        color: rgb(214, 10, 207);
     }
 
     75%{
         color: chocolate;
     }
-    100%{
+    90%{
         color: cyan;
+    }
+    100%{
+        color: tomato;
     }
 
 
@@ -150,7 +164,7 @@ nav{
 }
 
 nav {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg,rgb(214, 10, 207), rgb(36, 36, 240),rgb(208, 255, 0),rgb(11, 180, 11), #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	/* height: 100vh; */
