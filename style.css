@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(4 4 34);
+}
+
+
+
 *{
   margin: 0;
   padding: 0;
@@ -82,7 +88,7 @@ nav{
 #text1{
     margin: 218px 25px;
     font-family: 'Poppins', sans-serif;
-    color: rgb(70, 67, 56);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding-left: 100px;
 }
@@ -268,8 +274,7 @@ nav {
         
     }
 
-    #sadik{
-    }
+   
 
     .home div{
         width: 100%;
@@ -342,4 +347,12 @@ nav {
     background: #343232;
     transform: translateX(-50%);
     content: "who am i";
+}
+
+#title{
+    margin-top: -50px;
+}
+
+#about div{
+    width: 50%;
 }
