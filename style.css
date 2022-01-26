@@ -4,3 +4,11 @@
     font-family: 'Dongle', sans-serif;
     font-size: 30px;
 }
+
+#navbarSupportedContent ul>li a:hover{
+ color: crimson;
+ 
+ 
+ 
+ transition: all 0.5s;
+}
