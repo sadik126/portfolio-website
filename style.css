@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Dongle:wght@700&family=Encode+Sans:wght@500&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Dongle:wght@700&family=Encode+Sans:wght@500&family=Poppins:wght@400;500&family=Roboto+Condensed:wght@700&family=Roboto:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
 .container a{
     font-family: 'Dongle', sans-serif;
     font-size: 30px;
@@ -19,13 +19,33 @@
 
 
 .para1 h1{
-    font-family: 'Dongle', sans-serif;
-    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 70px;
 }
 
 .para1 h3{
-    font-family: 'Dongle', sans-serif;
-    line-height: normal;
-    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    color: rgb(224, 21, 21);
     
 }
+
+.para1 h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+
+}
+
+.para1 button {
+   height: 47px;
+   width: 137px;
+    background-image: linear-gradient(#FF4331,#D31A50);
+   
+    
+    border-radius: 20px;
+
+}
+ .para1 a{
+    text-decoration: none;
+    color: rgb(241, 223, 223);
+ }
